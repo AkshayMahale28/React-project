@@ -27,12 +27,16 @@
 
 // let newVal=true
 // let newVal=false
-x
+
 // let newVal1=Boolean(newVal)
 // let newVal1=Number(newVal)
 
 // console.log(newVal1);
 // console.log(typeof newVal1);
+
+// console.log(typeof("22"+22));
+// console.log(typeof(22+10+"22"));
+// console.log(22+10+"22");
 
 
 
