@@ -1,4 +1,3 @@
-
 // const score1=200
 // console.log(score1);
 
@@ -8,8 +7,7 @@
 // console.log( typeof(score));
 // console.log( typeof(score1));
 
-
-const balance=new Number(1000000)
+const balance = new Number(1000000);
 // console.log(balance.toFixed(2))
 // console.log(balance.toLocaleString('EN-in'))
 // console.log(balance.toString().length)
@@ -24,8 +22,6 @@ const balance=new Number(1000000)
 // Number is a built-in JavaScript object constructor. Normally, Number is a function, but when you use new with it, it creates an instance of a Number object.
 // new Number(1000000) will create a Number object that wraps the value 1000000.
 
-
-
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // console.log(Math.random());
@@ -35,14 +31,11 @@ const balance=new Number(1000000)
 // console.log(Math.abs(-20));
 // console.log(Math.max(10,20,30));
 
-
 // console.log(Math.floor((Math.random()*10)+1));
-
-
 
 // let maxVal=20
 // let minVal=10
 
 // console.log(Math.floor(Math.random()*(maxVal-minVal+1))+minVal);
 
-
+// In JavaScript, Math is a built-in object that provides a set of mathematical functions and constants. It is not a constructor function, so you do not need to create an instance of it using the new keyword.
