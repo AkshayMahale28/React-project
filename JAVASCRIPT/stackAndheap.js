@@ -1,12 +1,12 @@
-// // let str="Akshaymahale"
+// let str="Akshaymahale"
 
-// // let str2=str
+// let str2=str
 
-// // str2="AmanGupta"
+// str2="AmanGupta"
 
 
-// // console.log(str);
-// // console.log(str2);
+// console.log(str);
+// console.log(str2);
 
 
 // // non-premitive(Reference Type)
@@ -24,8 +24,6 @@
 
 // console.log(userOne.name);
 // console.log(userTwo.name);
-
-
 
 
 

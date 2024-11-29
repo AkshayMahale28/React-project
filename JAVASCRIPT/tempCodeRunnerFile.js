@@ -1,3 +1,1 @@
-
-// console.log(typeof Object);
-// console.log(typeof undefined);
+Math.random()*10
