@@ -46,8 +46,12 @@
 
 
 // let str=null
+// let str=Object
+// let str=undefined
+// let str=Boolean
+// let str=NaN
 // let str2=Number(str)
-// console.log(str2);
+console.log(typeof str);
 
 
 // let str3=Number(undefined)
@@ -67,7 +71,7 @@
 
 // console.log(null == undefined);
 
-console.log(null === undefined);
+// console.log(null === undefined);
                 
 
 

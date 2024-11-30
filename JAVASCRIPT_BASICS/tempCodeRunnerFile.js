@@ -1,3 +1,2 @@
 
-// obj2={3:"c",4:"d"}
-// obj3={5:"e",5:"f"}
+// console.log(typeof undefined);

@@ -13,7 +13,7 @@ const obj1={
 // console.log(obj1["name"]);
 
 obj1.email="akshay@gmail.com"
-// console.log( obj1[newArr]);4
+// console.log( obj1[newArr]);
 
 
 // obj1.greet=function(){
