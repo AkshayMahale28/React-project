@@ -74,7 +74,7 @@ let obj1={
 let {age:instructor}=obj1
 // console.log(age);
 // console.log(instructor);
-
+console.log({obj1}.age);
 
 
 
