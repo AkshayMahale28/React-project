@@ -59,8 +59,7 @@ chai(); // Output: undefined
 
 // In a browser, this refers to the window object.
 // In Node.js, this refers to the global object.
-// javascript
-// Copy code
+
 
 
 console.log(this);
