@@ -52,3 +52,27 @@ const balance=10
     
     
 // }
+
+
+
+// for (let index = 1; index <=10; index++) {
+//     console.log(`OUTER LOOP AND ITS VALUE: ${index}`);
+//     for (let j = 1; j <=10; j++) {
+//         console.log(`INNER LOOP VALUE:${j}`);
+//         console.log(`${index}*${j} =${index * j}`);
+        
+        
+        
+//     }
+    
+    
+// }
+
+
+for (let index = 11; index <= 20; index++) {  // Change outer loop to start from 11 to 20
+    console.log(`OUTER LOOP AND ITS VALUE: ${index}`);
+    for (let j = 1; j <= 10; j++) {  // Inner loop still runs from 1 to 10
+        console.log(`INNER LOOP VALUE: ${j}`);
+        console.log(`${index}*${j} = ${index * j}`);
+    }
+}

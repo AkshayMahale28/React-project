@@ -1,5 +1,4 @@
-function chai() {
-    const username = "Akshay";
-    console.log(this.username); // 'this' will refer to the global object (window in browsers)
+function anotherFunction(params) {
+    console.log(`My Name Is ${params.name} and My Name Is ${params.age} and My City Is ${params.city}`);
+       
 }
-chai(); // Output: undefined
