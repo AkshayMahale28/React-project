@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;color: aliceblue;">
+
+
+    <div class="language">
+        <li>Javascript</li>
+    </div>
+    
+</body>
+
+<script>
+    function addLang(lanName) {
+        
+        const li=document.createElement("li")
+        li.innerHTML=`${lanName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLang("python")
+    addLang("java")
+
+
+    function addNewLan(newLan) {
+        const li= document.createElement("li")
+        li.appendChild(document.createTextNode(newLan))
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addNewLan("react")
+    addNewLan("Ruby")
+
+
+
+    //EDIT
+
+    // const secondLan=document.querySelector('li:nth-child(2)')
+    // secondLan.textContent="Hello world"
+    // secondLan.style.color="yellow"
+
+    // EDIT 
+    const firstLan=document.querySelector('li:first-child')
+    firstLan.outerHTML="<li>Hello World</li>"
+
+// REMOVE 
+const firstLan1=document.querySelector('li:first-child')
+firstLan1.remove()
+
+
+
+
+
+
+</script>
+</html>
