@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>coding classes</h1>
+    <button id="btn">stop</button>
+    
+</body>
+
+<script>
+    let btn = document.getElementById("btn");
+    let h1=document.querySelector("h1")
+
+    // setTimeout(() => {
+    //     console.log("Hello Akshay");  
+    // }, 2000);
+
+
+    // sayAk=()=>{
+    //     console.log("Hello Akshay Don");
+    // }
+    // setTimeout(sayAk,2000)
+
+    chnageName=()=>{
+        h1.innerHTML="Best Coding Action series"
+    }
+    let newChange=setTimeout(chnageName,3000)
+
+    btn.addEventListener('click',()=>{
+            clearTimeout(newChange)
+            console.log("Action Stopped");
+        })
+</script>
+</html>

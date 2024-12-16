@@ -44,3 +44,14 @@
 //     // console.log("This is an IIFE with a arrow function");
 //     console.log(`Hi This Is ${user}`);
 // })("Akshay")
+
+
+(function name(yt) {
+    console.log(`Hello ${yt}`);
+    
+    
+})("Akshay");
+
+((user)=>{
+    console.log(`Hi This Is ${user}`);
+})("Akshay")

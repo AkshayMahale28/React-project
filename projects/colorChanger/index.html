@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>coding classes</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+
+</body>
+
+<script>
+    let start = document.getElementById("start");
+    let stop = document.getElementById("stop");
+    // let body = document.querySelector("body");
+    // let counter =
+
+
+    //     function generateRandomColor() {
+    //         const r = Math.floor(Math.random() * 256);
+    //         const g = Math.floor(Math.random() * 256);
+    //         const b = Math.floor(Math.random() * 256);
+
+    //         // Return the color in RGB format
+    //         return `rgb(${r}, ${g}, ${b})`;
+
+    //     }
+
+    // function startChangingColor() {
+    //     counter = setInterval(changeColor, 1000)
+
+    // }
+
+    // function changeColor() {
+    //     document.body.style.backgroundColor = generateRandomColor();
+    // }
+
+
+    // start.addEventListener('click', startChangingColor)
+
+
+    let counter = null;
+
+    function generateRandomColor() {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+
+        // Return the color in RGB format
+        return `rgb(${r}, ${g}, ${b})`;
+    }
+
+    function startChangingColor() {
+        if (counter === null) {
+            counter = setInterval(changeColor, 1000);
+        }
+    }
+
+    function stopChangingColor() {
+        clearInterval(counter);
+        counter = null;
+    }
+
+    function changeColor() {
+        document.body.style.backgroundColor = generateRandomColor();
+    }
+
+    start.addEventListener('click', startChangingColor);
+    stop.addEventListener('click', stopChangingColor);;
+
+</script>
+
+</html>

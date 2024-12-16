@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>coding classes</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+    
+</body>
+
+<script>
+    let start = document.getElementById("start");
+    let stop = document.getElementById("stop");
+    let counter =
+
+    
+    start.addEventListener('click',()=>{
+        counter=setInterval(()=>{
+            console.log("hi");
+            
+            
+        },1000)
+        
+    })
+
+    stop.addEventListener('click',()=>{
+        clearInterval(counter)
+        
+    })
+    
+</script>
+</html>
