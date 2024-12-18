@@ -84,25 +84,24 @@
 //     console.log(data);
 //   } catch (error) {
 //     console.log(error);
-    
+
 //   }
 // }
 
 // api()
 
-
-
 fetch("https://api.github.com/users/AkshayMahale28")
-.then(function(response){
-    return  response.json()
-}).then(function(data){
-    console.log(data)
-}).catch((error)=>{
-    console.log("ERROR OCCURED:",error)
-})
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log("ERROR OCCURED:", error);
+  });
 
-
-
+  
 // fetch("https://api.github.com/users/AkshayMahale28")
 //   .then(response => response.json())
 //   .then(data => console.log(data))
