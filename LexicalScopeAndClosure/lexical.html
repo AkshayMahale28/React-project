@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexical scope and closures</title>
+</head>
+
+<body style="background-color: black;">
+
+    <button id="orange">Orange</button>
+    <button id="green">green</button>
+
+</body>
+
+ <!-- <script>
+    function outer(){
+        let name="Akshay"
+
+        console.log("inner",color); // color is not defined here 
+        
+
+        function inner() {
+            let color="red"
+            console.log("INNER",name);   
+        }
+        // function inner2() {
+        //     console.log("INNER2",name);   
+        //     console.log("INNER2",color);  //cannot access color here beacuse it is in the inner scope
+        // }
+
+        inner()
+        // inner2()
+    }
+
+    outer()
+</script>  -->
+
+
+<!-- <script>
+
+    // Define the Outer function
+    function Outer() {
+        let name = "Akshay"; // Declare a variable in the outer function's scope
+
+        // Define the inner function
+        function inner() {
+            console.log(name); // Log the variable from the outer function's scope
+        }
+
+        return inner; // Return the inner function without executing it
+    }
+
+    // Call the Outer function and assign the returned function to myFunc
+    let myFunc = Outer();
+
+    // Execute the inner function through myFunc and log the result
+    console.log(myFunc());
+// 
+
+</script> -->
+    
+<script>
+    // document.getElementById("orange").onclick=function(){
+    //     document.body.style.backgroundColor=`orange`
+    // }
+    // document.getElementById("green").onclick=function(){
+    //     document.body.style.backgroundColor=`green`
+    // }
+
+
+    function handler(color) {
+        //   document.body.style.backgroundColor=`${color}`
+        
+        // return function(){
+        //       document.body.style.backgroundColor=`${color}`
+
+        //   }
+        
+    }
+
+     document.getElementById("green").onclick=handler("green")
+     document.getElementById("orange").onclick=handler("orange")
+
+
+</script>
+</html>
