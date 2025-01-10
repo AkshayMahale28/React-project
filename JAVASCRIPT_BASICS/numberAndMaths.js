@@ -40,4 +40,5 @@ const balance = new Number(1000000);
 
 // console.log(Math.floor(Math.random()*(maxVal-minVal+1))+minVal);
 
-// In JavaScript, Math is a built-in object that provides a set of mathematical functions and constants. It is not a constructor function, so you do not need to create an instance of it using the new keyword.
+// In JavaScript, Math is a built-in object that provides a set of mathematical functions and constants. 
+// It is not a constructor function, so you do not need to create an instance of it using the new keyword.

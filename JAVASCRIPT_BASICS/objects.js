@@ -12,13 +12,14 @@ const obj1={
 // console.log(obj1.age);
 // console.log(obj1["name"]);
 
-obj1.email="akshay@gmail.com"
-// console.log( obj1[newArr]);
+// obj1.email="akshay@gmail.com"
+console.log( obj1[newArr]);
 
 
 // obj1.greet=function(){
 //     console.log("Hello");
 // }
+
 obj1.greet1=function(){
     console.log(`Hello User My Name Is ${this.name}`);
 }

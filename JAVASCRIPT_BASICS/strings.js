@@ -19,7 +19,7 @@ let str=new String("Akshay-Mahale")
 // console.log(str.charAt(1));
 // console.log(str.indexOf("h"));
 // console.log(str.toUpperCase());
-// console.log(str.replace("-","@"));
+console.log(str.replace("-","@"));
 console.log(str.slice(-1,-4));
 // console.log(str.substring(0,4));#####IN THIS NEGATIVE INDEXING IS NOT ALLOWED######
 

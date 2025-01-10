@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#charCount {
+  font-size: 14px;
+  color: #666;
+}
+
+#error {
+  font-size: 14px;
+  color: red;
+  margin-top: 5px;
+}
+
+.hidden {
+  display: none;
+}

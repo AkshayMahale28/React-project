@@ -24,14 +24,14 @@
 
 
 
-// obj1={1:"a",2:"b"}
-// obj2={3:"c",4:"d"}
-// obj3={5:"e",5:"f"}
+obj1={1:"a",2:"b"}
+obj2={3:"c",4:"d"}
+obj3={5:"e",5:"f"}
 
 
 // let tinderUser=Object.assign(obj1,obj2,obj3)
-// // let tinderUser=Object.assign({},obj1,obj2,obj3)
-// // console.log(tinderUser);
+let tinderUser=Object.assign({},obj1,obj2,obj3)
+console.log(tinderUser);
 // console.log(obj1);  
 
 
@@ -65,13 +65,13 @@
 
 // Objects Destructuring 
 
-let obj1={
-    name:'Akshay',
-    age:20,
-}
+// let obj1={
+//     name:'Akshay',
+//     age:20,
+// }
 
 
-let {age:instructor}=obj1
+// let {age:instructor}=obj1
 // console.log(age);
 // console.log(instructor);
 

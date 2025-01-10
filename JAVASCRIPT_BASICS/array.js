@@ -24,6 +24,6 @@ console.log(array1);
 
 
 
-newAr=array1.join()   //Gives a string of all elements in the array 
+// newAr=array1.join()   //Gives a string of all elements in the array 
 // console.log(newAr);
 

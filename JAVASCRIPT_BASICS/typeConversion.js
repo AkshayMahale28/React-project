@@ -59,7 +59,9 @@ console.log(typeof str);
 
 
 // Explanation:
-// The loose equality (==) operator in JavaScript performs type coercion. This means it attempts to convert the operands to a common type before making the comparison. Specifically, when comparing null and undefined using ==, JavaScript has a special rule that considers them equal:
+//  The loose equality (==) operator in JavaScript performs type coercion.
+//  This means it attempts to convert the operands to a common type before making the comparison. Specifically, 
+//  when comparing null and undefined using ==, JavaScript has a special rule that considers them equal:
 
 // null == undefined is true because of a specific behavior in JavaScript where null and undefined are treated as equivalent when using the loose equality operator.
 // However, when using the strict equality operator (===), which does not perform type coercion, null === undefined will return false because they are distinct types (null is an object and undefined is a primitive).

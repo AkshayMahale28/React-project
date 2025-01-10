@@ -1,25 +1,27 @@
-// function addCart(val1,val2,... val) {
-//     return val
+function addCart(val1,val2,... val) {
+    console.log(val1);
     
+    return val
+    
+}
+
+let result=addCart(20,30,50,5,47,52,45,1,5,)
+console.log(result);
+
+
+// let obj1={
+//     name:"Rahul",
+//     age:25,
+//     city:"Delhi",
 // }
 
-// let result=addCart(20,30,50,5,47)
-// console.log(result);
 
-
-let obj1={
-    name:"Rahul",
-    age:25,
-    city:"Delhi",
-}
-
-
-function anotherFunction(params) {
-    console.log(`My Name Is ${params.name} and My Name Is ${params.age} and My City Is ${params.city}`);
+// function anotherFunction(params) {
+//     console.log(`My Name Is ${params.name} and My Name Is ${params.age} and My City Is ${params.city}`);
        
-}
+// }
 
-anotherFunction(obj1);
+// anotherFunction(obj1);
 
 
 // const Arr=[1,2,3,4,5]

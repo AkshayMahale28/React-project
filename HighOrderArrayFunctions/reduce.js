@@ -30,10 +30,10 @@
 const mycoding=[1,2,3,4,5,6,7,8,9,10]
 
 
-// let val=mycoding.reduce((acc,currVal)=>{
-//    console.log(`The Acc Is ${acc} And The CurrVal Is ${currVal}`);
-//    return acc + currVal
+let val=mycoding.reduce((acc,currVal)=>{
+   console.log(`The Acc Is ${acc} And The CurrVal Is ${currVal}`);
+   return acc + currVal
     
-// },0)
+},0)
 
-// console.log(val);
+console.log(val);

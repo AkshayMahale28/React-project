@@ -1,2 +1,13 @@
+{
+    name:"Akshay",
+    age:25,
+    
+}
 
-// console.log(typeof undefined);
+let userTwo=userOne
+
+
+userTwo.name="SSBT COLLAGE"
+
+console.log(userOne.name);
+console.log(userTwo.name);
