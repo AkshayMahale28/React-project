@@ -1,5 +1,3 @@
-let obj1={
-//     name:"Rahul",
-//     age:25,
-//     city:"Delhi",
-// }
+
+// const b=a.filter((char) => char > 2);
+// console.log(b);
