@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Navbar Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">MyLogo</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+ 
+        <section>
+            <button id="red" class="color">RED</button>
+            <button id="blue" class="color">BLUE</button>
+            <button id="yellow" class="color">YELLOW</button>
+        </section>
+  
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const colorEle=document.querySelectorAll('.color')
+        colorEle.forEach((color)=>{
+            color.addEventListener('click',(e)=>{
+                console.log(e);
+            
+            if(e.target.id==='red'){
+                document.body.style.backgroundColor='red'
+            }
+            if(e.target.id==='blue'){
+                document.body.style.backgroundColor='blue'
+            }
+            if(e.target.id==='yellow'){
+                document.body.style.backgroundColor='yellow'
+            }
+
+        })
+        
+    })
+
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
