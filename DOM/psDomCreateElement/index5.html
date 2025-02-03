@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="language">
+        <li>Javascript</li>
+    </div>
+    
+
+
+    <script>
+        function addlan(langName){
+            const li =document.createElement('li')
+            // li.textContent = langName
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector('.language').appendChild(li)
+            
+
+        }
+
+        addlan("Python")
+        addlan("TS")
+    </script>
+</body>
+</html> 
